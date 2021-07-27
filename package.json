@@ -1,0 +1,52 @@
+{
+  "name": "jibo-react",
+  "version": "1.6.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js -p $PORT --open",
+    "build": "next build && next export",
+    "hz": "NODE_ENV=production node server.js -p $PORT"
+  },
+  "keywords": [],
+  "author": "EnvyTheme.com",
+  "license": "ISC",
+  "description": "Manage Legal Docs",
+  "dependencies": {
+    "@emotion/css": "^11.1.3",
+    "@oieduardorabelo/use-user-agent": "^3.1.0",
+    "availity-reactstrap-validation": "^2.7.1",
+    "axios": "^0.21.1",
+    "axios-retry": "^3.1.9",
+    "body-parser": "^1.19.0",
+    "emotion": "^11.0.0",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^10.0.6",
+    "next-plugin-svgr": "^1.0.0",
+    "next-react-svg": "^1.1.3",
+    "nodemailer": "^6.4.17",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "react": "^16.14.0",
+    "react-accessible-accordion": "^3.3.3",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^16.14.0",
+    "react-modal-video": "^1.2.6",
+    "react-no-ssr": "^1.1.0",
+    "react-owl-carousel3": "^2.2.5",
+    "react-particles-js": "^2.7.1",
+    "react-preloading-screen": "^1.0.2",
+    "react-toastr": "^3.0.0",
+    "react-visibility-sensor": "^5.1.1",
+    "react-wow": "^1.0.0",
+    "reactstrap": "^8.9.0",
+    "sass": "^1.32.6",
+    "sass-loader": "^12.1.0",
+    "systeminformation": "^5.7.8",
+    "toastr": "^2.1.4",
+    "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {
+    "next-images": "^1.8.1"
+  }
+}

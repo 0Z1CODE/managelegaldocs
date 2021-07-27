@@ -1,0 +1,12 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/blog-one": "pages/blog-one.html",
+  "/blog-three": "pages/blog-three.html",
+  "/blog-two": "pages/blog-two.html",
+  "/details-one": "pages/details-one.html",
+  "/details-two": "pages/details-two.html",
+  "/": "pages/index.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
