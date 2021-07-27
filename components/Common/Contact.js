@@ -109,7 +109,7 @@ export default class Contact extends React.Component {
                                 <div className="single-contact-info">
                                     <i className="icofont-envelope"></i>
                                     <h3>E-mail Address:</h3>
-                                    <p>jibo@gmail.com</p>
+                                    <p>legaldocs@gmail.com</p>
                                 </div>
                             </div>
                         </ReactWOW>

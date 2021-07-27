@@ -22,7 +22,7 @@ export default class MyApp extends App {
                 <Head>
                     <meta charSet="utf-8" />
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
-                    <title>Jibo - React Next App/Product Landing Page Templates</title>
+                    <title>Legal Docs  - You Best App</title>
                 </Head>
 
                 <Component {...pageProps} />
