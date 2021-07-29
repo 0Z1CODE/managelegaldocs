@@ -38,7 +38,7 @@ class LoginForm extends Component {
     }).then(function (response) {
       const {result, data} = response
       if (result) {
-        window.location.replace(`http://77.122.140.19:83//auth/${data.auth_hash}`)
+        window.location.replace(`http://77.122.140.19:83/auth/${data.auth_hash}`)
       } else {
         Note.isError(data.error_message);
         return false;
