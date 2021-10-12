@@ -156,8 +156,6 @@ __webpack_require__.d(__webpack_exports__, {
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(9297);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(5675);
 // EXTERNAL MODULE: external "react-anchor-link-smooth-scroll"
 var external_react_anchor_link_smooth_scroll_ = __webpack_require__(3805);
 var external_react_anchor_link_smooth_scroll_default = /*#__PURE__*/__webpack_require__.n(external_react_anchor_link_smooth_scroll_);
@@ -348,7 +346,7 @@ var Navigation_jsx = (external_react_default()).createElement;
 
 function Navigation_defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-
+// import Image from "next/image";
 
 
 
@@ -401,10 +399,9 @@ class Navigation extends (external_react_default()).Component {
     }, Navigation_jsx("a", {
       className: "navbar-brand",
       href: "/"
-    }, Navigation_jsx(next_image.default, {
-      src: "/images/logosvg.svg",
-      width: "120px",
-      height: "50"
+    }, Navigation_jsx("img", {
+      src: "/images/logosvg.png",
+      alt: "client Image"
     })), Navigation_jsx("div", {
       className: "d-flex align-items-center"
     }, Navigation_jsx("div", {

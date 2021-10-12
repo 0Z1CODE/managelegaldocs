@@ -1,9 +1,8 @@
-import Image from "next/image";
+// import Image from "next/image";
 import SlideMenu from "../Common/SlideMenu";
 import { Button } from "reactstrap";
 class Navigation extends React.Component {
   _isMounted = false;
-
 
   componentDidMount() {
     this._isMounted = true;
@@ -60,7 +59,10 @@ class Navigation extends React.Component {
         >
           <div className="container ">
             <a className="navbar-brand" href="/">
-              <Image src="/images/logosvg.svg" width="120px" height="50" />
+          
+                <img src="/images/logosvg.png" alt="client Image" />
+          
+              {/* <Image src="/images/logosvg.svg" width="120px" height="50" /> */}
             </a>
             <div className="d-flex align-items-center">
               <div className="login">
@@ -85,7 +87,6 @@ class Navigation extends React.Component {
             </div>
           </div>
         </nav>
-   
       </>
     );
   }

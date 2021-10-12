@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Col, Row, Button } from "reactstrap";
-import Image from "next/image";
+// import Image from "next/image";
 import LoginForm from "./LoginForm";
 import RegisterForm from "./RegisterForm";
 
@@ -27,11 +27,13 @@ class FullScreenModal extends Component {
                 <Row>
                   <Col className="text-center ">
                     <div className="logo">
-                      <Image
+                      {/* <Image
                         src="/images/logosvg.svg"
                         width="120px"
                         height="70"
-                      />
+                      /> */}
+                <img src="/images/logosvg.png" alt="client Image" />
+
                     </div>
                     <h4 className="sign_text mb-3 mt-3">
                       {this.props.formType === "sign_in" &&
