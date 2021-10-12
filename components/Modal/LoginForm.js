@@ -48,8 +48,7 @@ class LoginForm extends Component {
       Note.isError(response);
       return false;
     });
-    
-
+  
   };
   render() {
     return (

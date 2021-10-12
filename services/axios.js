@@ -26,7 +26,7 @@ axiosRetry(axios, {
 
 
 (async () => {
-  axios.defaults.baseURL = "http://77.122.140.19/";
+  axios.defaults.baseURL = "http://134.249.84.182";
   axios.defaults.headers.post['User_IP'] = await GetIp();
 })();
 
